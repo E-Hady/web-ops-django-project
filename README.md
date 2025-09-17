@@ -1,16 +1,41 @@
-# projects
+# 🎓 Student Portal / University App - Backend
 
-A new Flutter project.
+This repository contains the **backend code** for the Student Portal / University App.
 
-## Getting Started
+The system is designed to support universities and students with features such as:
 
-This project is a starting point for a Flutter application.
+- 📚 Course management (view, register, drop courses)  
+- 📝 Grades and transcripts  
+- 📅 Timetables and schedules  
+- 🔔 Notifications and announcements  
+- 👨‍🏫 Role-based access (students, professors, administrators)  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🔧 Technologies Used
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Backend Framework:** Django / FastAPI (Python)  
+- **Database:** PostgreSQL / SQLite  
+- **Deployment:** Docker, Docker Compose  
+
+---
+
+## 🛠️ How to Run
+
+### 1. Clone the repository
+```bash
+
+git clone https://github.com/E-Hady/web-ops-django-project.git
+cd web-ops-django-project
+```
+### 2. Setup the backend
+```bash
+cd backend
+python manage.py migrate
+python manage.py runserver
+```
+
+3. Access the app
+```bash
+
+API will be available at: http://127.0.0.1:8000/
